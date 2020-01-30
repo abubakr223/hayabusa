@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One&display=swap" rel="stylesheet">
+    <img src="school badge.png" alt="">
+<br>
+
+    <h1>Mzamomtsha Primary School</h1>
+
+</head>
+
+
+
+
+
+
+<body>
+
+      <nav>
+  <ul>
+    <li>
+      <a href="schoooool.html">Home</a>
+    </li>
+    <li>
+      <a href="about.html">About</a>
+    </li>
+    <li>
+      <a href="events.html">Events</a>
+    </li>
+    <li>
+      <a href="#">faq</a>
+    </li>
+  </ul>
+</nav>
+
+    <div style="padding-left:16px">
+
+
+    </div>
+    <div>
+
+        <script>
+            var i = 0;
+            var images = [];
+            var time = 3000;
+
+            images[0] = 's1.jpg';
+            images[1] = 's2.jpg';
+            images[2] = 's3.jpg';
+            images[3] = 's4.jpg';
+            images[4] = 's5.jpg';
+            images[5] = 's6.jpg';
+            images[6] = 's7.jpg';
+            images[7] = 's8.jpg';
+            images[8] = 's9.jpg';
+            images[9] = 's10.jpg';
+            images[10] = 's11.jpg';
+            images[11] = 's12.jpg';
+
+
+
+
+
+            function changeImg() {
+
+                document.slide.src = images[i];
+
+                if (i < images.length - 1) {
+                    i++;
+
+                } else {
+                    i = 0;
+                }
+
+                setTimeout("changeImg()", time);
+            }
+
+            window.onload = changeImg;
+        </script>
+        <div style="width:25%, height : 15%, background-color:blue">
+
+        </div>
+        <img class="slideshow" name="slide" width="1000" height="500" margin-left="10%%">
+
+
+
+
+
+
+
+    </div>
+    <div class="a">
+<p>Mzamomtsha primary school in drift sand, which is a developed informal Settlement situated between Khayelitsha and umfuleni township. The school is run
+by Mr. simphiwe khuze who joined in 2007 as a principal Due to the huge amount of population growth the school is now accepting pupils from grade 1 to
+grade 12 The issues they are experiencing is that there is insufficient staff and classrooms
+to go with the huge amounts of learners This will impact the school negatively and will make things difficult for the staff to teach the amount of learners,
+including the workspace/classrooms. Mzamomtsha primary school is absently online. We will have to develop a website that will showcase the local and national footprint.</p>
+        
+    </div>
+    
+
+
+
+</body>
+
+<div class="footer">
+
+    <pre>
+
+        Contact Details                 Street Address                                    School Hours
+        Telephone: 021 939 4145         Toner Street South, Khayelistha                  Monday – Thursday: 07:40 – 14:30
+        Fax: 086 299 3388               Postal Address                                   Friday: 07:40 – 13:30
+        Email: info@mps.co.za           Private Bag X01 Khayelistha 7501
+ </pre>
+
+</div>
+      </div>
+
+  </div>
+
+
+
+
+</html>
