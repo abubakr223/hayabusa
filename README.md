@@ -62,7 +62,7 @@ Home - we added a bit of the school's pictures, the teachers and the learners.
 Events - the page consist of the events that happen it the school such as their outings, prizes given to the learners for top achievers.
 About - the school address and the contact details.
 
--We used the Html elements (<h1> for the headings, <p> for the paragraphs, <br> to give spaces in our sentences and we also used padding)
+-We used the Html elements (<> for the headings, <p> for the paragraphs, <br> to give spaces in our sentences and we also used padding)
 -We also used CSS  for the (font-sizes, width, height, background color and text-align)
 
 # Citation
